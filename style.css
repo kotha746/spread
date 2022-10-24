@@ -6,12 +6,12 @@
   
     --main-heading: calc(var(--body-copy) * 3);
     --sub-heading: calc(var(--body-copy) * 1.5);
-    
+    --Margin:0;
   }
 
   @media (min-width: 768px) {
     :root {
-      --body-copy: 16px;
+      --body-copy: 20px;
       --page-spacing: 48px;
   
       --main-heading: calc(var(--body-copy) * 4);
@@ -23,6 +23,7 @@
 body {
 font-family: "Neue Montreal",sans-serif;
 font-size: var(--body-copy);
+Margin:0;
 }
 
 nav {
