@@ -540,8 +540,8 @@ section:nth-child(29) {
       .cone2{
       position: relative;
       display:flex;
-      top:calc(var(--body-copy) * -4);
-      left:55%;
+      top:calc(var(--body-copy) * -6);
+      left:75%;
       width:calc(var(--body-copy) * 2);
       height:calc(var(--body-copy) * 2);
       background-color:#F8D250;
@@ -553,8 +553,8 @@ section:nth-child(29) {
       
       .half-left2{
       position: relative;
-      top:calc(var(--body-copy) * -2.5);
-      left:15%;
+      top:calc(var(--body-copy) * -9);
+      left:60%;
       border: calc(var(--body-copy) * 2) solid #266BAE;
       width: 0px;
       border-radius: calc(var(--body-copy) * 4);
@@ -601,8 +601,8 @@ section:nth-child(29) {
     .cone2{
     position: relative;
     display:flex;
-    top:calc(var(--body-copy) * -8);
-    left:50%;
+    top:calc(var(--body-copy) * -6);
+    left:75%;
     width:calc(var(--body-copy) * 2);
     height:calc(var(--body-copy) * 2);
     background-color:#F8D250;
@@ -613,8 +613,8 @@ section:nth-child(29) {
     
     .half-left2{
     position: relative;
-    top:calc(var(--body-copy) * -10);
-    left:15%;
+    top:calc(var(--body-copy) * -9);
+    left:60%;
     border: calc(var(--body-copy) * 2) solid #266BAE;
     width: 0px;
     border-radius: calc(var(--body-copy) * 4);
