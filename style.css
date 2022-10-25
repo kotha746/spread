@@ -30,6 +30,7 @@
     line-height:120%;
     gap:calc(var(--page-spacing)*1);
     margin:0;
+    display:block;
   }
 
   nav{
@@ -877,4 +878,13 @@ section:nth-child(4){
 display: none;
 }
 
+  }
+
+
+
+  @media (min-width: 350px) {
+    
+    section{
+      display:block;
+    }
   }
