@@ -29,12 +29,29 @@
     margin:0;
   }
 
+
+
   nav{
     padding-left:calc(var(--page-spacing) * 2);
     padding-right:calc(var(--page-spacing) * 2);
+    display: flex;
+    justify-content: space-between;
+
     }
 
   
+}
+
+.arrow {
+  height: 30px;
+  width: auto;
+  padding-top: 15px;
+
+}
+
+.dropdown {
+  display: grid;
+
 }
 
 
