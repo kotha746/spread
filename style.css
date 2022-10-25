@@ -11,7 +11,7 @@
 
 @media (min-width: 350px) {
   :root {
-    --body-copy: 20px;
+    --body-copy: 18px;
     --page-spacing: 30px;
 
     --main-heading: calc(var(--body-copy) * 4);
@@ -29,6 +29,8 @@
     padding-left:calc(var(--page-spacing) * 2);
     padding-right:calc(var(--page-spacing) * 2);
     }
+
+  
 }
 
 
@@ -641,5 +643,20 @@ section:nth-child(29) {
     background-color:rgb(232, 232, 232);
     padding-left:0;
     padding-right:0;
+    }
+  }
+
+  @media (min-width: 350px) {
+  .quote1{
+
+    font-size:calc(var(--body-copy) * 1.5);
+    }
+    
+    
+  .quote2{
+    font-size:calc(var(--body-copy) * 1.5);}
+
+  .quote_main{
+    font-size:calc(var(--body-copy) * 1.3);
     }
   }
