@@ -876,6 +876,8 @@ section:nth-child(29) {
         margin:0;
         padding-top:40px;
         padding-bottom:40px;
+        padding-left:80px;
+        padding-right:80px;
         line-height: 102%;
         color:#000000;
         background-color:#ffffff00;
@@ -965,7 +967,7 @@ margin-bottom:-20px;
 }
 
 section:nth-child(12){
-  margin-top:-70px;
+  margin-top:-90px;
   padding-top:0px;
   padding-bottom:10px;
 }
@@ -1019,17 +1021,23 @@ section:nth-child(31)
   display:none;}
 
 section:nth-child(28){ 
-padding-bottom:140px;
+padding-bottom:170px;
   
       }
 
 section:nth-child(30)
 { transform:scale(0.8);
-  padding-bottom:;
-  margin-top:-150px;
+  padding-bottom:20px;
+  margin-top:-160px;
   margin-bottom:0;
+  
 
     }
-
+section:nth-child(32)
+    {
+      padding-top:20px;
+      padding-bottom:20px;
+    }
   }
+
 
