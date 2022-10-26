@@ -872,6 +872,7 @@ section:nth-child(29) {
     }
     @page{
       margin:0;
+      background-color: white;
     }
   
     section{
@@ -920,7 +921,7 @@ section:nth-child(2){
 
 
 section:nth-child(4){
-background-color:rgb(0, 0, 0);
+background-color:rgb(255, 255, 255);
 display: flex;
 flex-direction: row;
 justify-content: center;
@@ -953,8 +954,17 @@ section:nth-child(4){
   margin-bottom:-50px;
 }
 
-
-
+section:nth-child(5){
+  background-color:rgb(255, 255, 255);
+  color:#000000;
+  
+  }
+.quote1{
+  color:rgb(38,107,174);
+}
+.quote3{
+  color:rgb(38,107,174);
+}
 section:nth-child(6),
 section:nth-child(7),
 section:nth-child(8),
@@ -963,7 +973,7 @@ section:nth-child(10),
 section:nth-child(11){
 padding-bottom:0;
 margin-bottom:calc(var(--page-spacing) * -6);
-background-color:rgb(232, 232, 232);
+background-color:rgb(255, 255, 255);
 padding:10px;
 margin-top:-10px;
 margin-bottom:-20px;
@@ -973,6 +983,8 @@ section:nth-child(12){
   margin-top:-90px;
   padding-top:0px;
   padding-bottom:10px;
+  background-color:rgb(255, 255, 255);
+  
 }
   
 
@@ -983,9 +995,10 @@ section:nth-child(22),
 section:nth-child(23),
 section:nth-child(24),
 section:nth-child(25){
-background-color:rgb(232,232,232);
+background-color:rgb(255, 255, 255);
 padding-top:10px;
 padding-bottom:10px;
+border-bottom: none;
 }
 
 section:nth-child(15){
@@ -993,8 +1006,8 @@ padding-bottom:40px;
 }
 
 section:nth-child(25){
-  background-color:rgb(232,232,232);
-  padding-bottom:60px; 
+  background-color:rgb(255, 255, 255);
+  padding-bottom:10px; 
   
   }
 
@@ -1007,14 +1020,14 @@ section:nth-child(20),
 section:nth-child(21){
 padding-bottom:0;
 margin-bottom:calc(var(--page-spacing) * -6);
-background-color:rgb(232, 232, 232);
+background-color:rgb(255, 255, 255);
 padding:0px;
 margin-top:-10px;
 margin-bottom:-50px;}
 
 section:nth-child(26){
 background-color:rgb(0, 0, 0);
-padding-top:40px;
+padding-top:10px;
 padding-bottom:10px;
 }
 
@@ -1030,9 +1043,11 @@ padding-bottom:170px;
 
 section:nth-child(30)
 { transform:scale(0.8);
-  padding-bottom:20px;
+  padding-bottom:50px;
   margin-top:-160px;
   margin-bottom:0;
+  background-color:rgb(255, 255, 255);
+  color:black;
   
 
     }
@@ -1041,6 +1056,15 @@ section:nth-child(32)
       padding-top:20px;
       padding-bottom:20px;
     }
+
+
+    section:nth-child(26),
+    section:nth-child(27),
+    section:nth-child(28),
+    section:nth-child(29){
+  
+    background-color:rgb(255, 255, 255);
+    color:black;
   }
 
 
