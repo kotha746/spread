@@ -11,18 +11,18 @@
   --margin:0;
 }
 
-@media (min-width: 350px) {
+@media (max-width: 380px) {
   :root {
     --body-copy: 17px;
     --page-spacing: 28px;
 
     --main-heading: calc(var(--body-copy) * 4);
     --sub-heading: calc(var(--body-copy) * 2);
-     
+
     margin:0; 
   }
   section{
-    padding-left:calc(var(--page-spacing) * 1.7);
+    padding-left:calc(var(--page-spacing) * -1);
     padding-right:calc(var(--page-spacing) * 1.7);
     padding-top:calc(var(--page-spacing) * 2);
     padding-bottom:calc(var(--page-spacing) * 4);
@@ -34,7 +34,6 @@
   }
 
 
-
   nav{
     padding-left:calc(var(--page-spacing) * 2);
     padding-right:calc(var(--page-spacing) * 2);
@@ -43,9 +42,11 @@
 
     }
 
-  
+
+    }
   
 }
+
 
 .arrow {
   height: 30px;
@@ -237,7 +238,7 @@ white-space:nowrap;
     font-size: 16px;
     border: none;
     cursor: pointer;
-    display:flex;
+    display:b;
     white-space: nowrap;
   }
   
@@ -331,6 +332,7 @@ background-color:rgb(0, 0, 0);
 display: flex;
 color:white;
 justify-content: center;
+
 
 }
 
@@ -566,7 +568,7 @@ section:nth-child(24) {
     font-weight:350;
     letter-spacing: 0;
     font-style: italic;
-    line-heighet: 105%;
+    line-height: 105%;
   }
 
   }
